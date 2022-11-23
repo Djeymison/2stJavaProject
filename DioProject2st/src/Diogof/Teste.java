@@ -1,5 +1,6 @@
 package Diogof;
 
+import Diogof.Facade.Facade;
 import Diogof.Sigleton.SingletonEager;
 import Diogof.Sigleton.SingletonLazy;
 import Diogof.Strategy.AgressiveBehavior;
@@ -41,6 +42,10 @@ robot.setStrategy(Normal);
 robot.move();
 robot.move();
 
+/*FACEDE */
+
+Facade facade = new Facade();
+facade.MoveClient("Djeymison" , "45625330");
 
     }
 }
